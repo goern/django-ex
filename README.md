@@ -108,7 +108,7 @@ Your application will be built and deployed automatically. If that doesn't happe
 And you can see information about your deployment too:
 
     oc describe dc/django-example
-
+ 
 In the web console, the overview tab shows you a service, by default called "django-example", that encapsulates all pods running your Django application. You can access your application by browsing to the service's IP address and port.  You can determine these by running
 
     oc get svc
